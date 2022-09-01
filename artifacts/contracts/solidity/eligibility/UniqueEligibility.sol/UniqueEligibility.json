@@ -1,0 +1,49 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "UniqueEligibility",
+  "sourceName": "contracts/solidity/eligibility/UniqueEligibility.sol",
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint256[]",
+          "name": "tokenIds",
+          "type": "uint256[]"
+        },
+        {
+          "indexed": false,
+          "internalType": "bool",
+          "name": "isEligible",
+          "type": "bool"
+        }
+      ],
+      "name": "UniqueEligibilitiesSet",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "tokenId",
+          "type": "uint256"
+        }
+      ],
+      "name": "isUniqueEligible",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b50610123806100206000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80633942cf3614602d575b600080fd5b603c6038366004609d565b6050565b604051901515815260200160405180910390f35b600080605d6101008460cb565b60008181526020819052604090205490915060778185607f565b949350505050565b600080608c6101008460dc565b9390931c6001908116149392505050565b60006020828403121560ae57600080fd5b5035919050565b634e487b7160e01b600052601260045260246000fd5b60008260d75760d760b5565b500490565b60008260e85760e860b5565b50069056fea2646970667358221220e7dba6f7b7be7a8a2e5b28311f5a27efbc872e0fcf97cb2fccd3f5b27c864e8264736f6c634300080d0033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c80633942cf3614602d575b600080fd5b603c6038366004609d565b6050565b604051901515815260200160405180910390f35b600080605d6101008460cb565b60008181526020819052604090205490915060778185607f565b949350505050565b600080608c6101008460dc565b9390931c6001908116149392505050565b60006020828403121560ae57600080fd5b5035919050565b634e487b7160e01b600052601260045260246000fd5b60008260d75760d760b5565b500490565b60008260e85760e860b5565b50069056fea2646970667358221220e7dba6f7b7be7a8a2e5b28311f5a27efbc872e0fcf97cb2fccd3f5b27c864e8264736f6c634300080d0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
