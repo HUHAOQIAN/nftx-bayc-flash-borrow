@@ -10,7 +10,7 @@ https://etherscan.io/tx/0xeb8c3bebed11e2e4fcd30cbfc2fb3c55c4ca166003c7f7d319e78e
 
 ## testing
 
-`forge test --fork-url https://eth-mainnet.g.alchemy.com/v2/2u8QeJCV2T4wYh_s8nIiKTf-cxZ3hhy5 --fork-block-number 14764158 -vvv`
+`forge test --fork-url [RPC_URL] --fork-block-number 14764158 -vvv`
 
 ## resources
 
